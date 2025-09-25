@@ -1,0 +1,7 @@
+#804: DuckDB wrong column 
+
+ import duckdb
+result = duckdb.sql("SELECT 42 AS answer"). fetchall()
+print (result)
+
+solution : it is correct schema

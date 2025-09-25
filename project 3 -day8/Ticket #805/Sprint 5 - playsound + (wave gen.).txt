@@ -1,0 +1,5 @@
+ #805: playsound blocking 
+
+from playsound import playsound playsound ("success.mp3")
+
+solution : run in thread
